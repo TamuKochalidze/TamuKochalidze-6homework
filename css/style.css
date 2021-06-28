@@ -1,0 +1,22 @@
+.background {
+	width: 400px;
+	height: 400px;
+}
+.bird{
+	height: 100px;
+	animation: birdanimation 5s infinite;
+	position: absolute;
+}
+.animation-block {
+	position: relative;
+}
+
+@keyframes birdanimation {
+	0% {left: 0px; transform: rotate(30deg);}
+	25% {left: 500px; transform: rotate(-20deg);}
+	50% {left: 1000px; transform: rotate(20deg);}
+	75% {left: 1500px;transform: rotate(-20deg);}
+	100% {left: 1920px; transform: rotate(20deg);}
+}
+
+

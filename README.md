@@ -1,1 +1,1 @@
-# TamuKochalidze-6homework
+# TamuKochalidze-homework6
